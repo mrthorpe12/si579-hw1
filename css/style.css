@@ -22,11 +22,10 @@ h1 {
 }
 
 img {
-	height: 200px;
+	height: 300px;
 	width: auto;
-	border: 3px solid blue;
 	padding: 25px;
-	border-radius: 10px;
+	border-radius: 50px;
 	margin: 10px;
 }
 
@@ -42,17 +41,15 @@ p, h1, h2 {
 
 
 nav li {
-	background-color: #ECFF4D;
+	background-color: #4dff74;
 	padding: 10px;
 	width: 25%;
 	border: 1px solid black;
+	border-radius: 50px;
+	text-align: center;
 	display: inline-block;
 	width: 20%;
 }
 
 
 
-/*Added this so the links stay the same color*/
-a:visited {
-	color: #0000FF
-}
